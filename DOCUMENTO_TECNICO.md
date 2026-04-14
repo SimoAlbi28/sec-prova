@@ -4,7 +4,7 @@
 **Corsista**: Simone Albini
 **Data**: 14/04/2026
 **Percorso**: Fullstack Developer 
-**Link prototipo Figma**: [incolla qui il link]
+**Link prototipo Figma**: https://www.figma.com/design/rcjLFDwtnQilzUQwybHrhk/trezzano-events?node-id=5-174&m=dev&t=ZxrXxBZDQqqbbnD4-1
 
 ---
 
