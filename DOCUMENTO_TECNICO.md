@@ -21,7 +21,7 @@ L'idea è che il portale sia il più possibile leggero, responsive e usabile anc
 
 ## 2. Tecnologie utilizzate
 
-### Front-end
+### Front-end (pnpm create vite@latest) -->
 - **HTML5** — struttura semantica della pagina
 - **CSS3** — personalizzazione stili, variabili
 - **Bootstrap 5.3.3** layout responsive, componenti (navbar, card, form)
