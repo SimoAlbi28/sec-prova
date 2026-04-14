@@ -48,6 +48,11 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* titoli card: rossi */
+.card .card-title {
+  color: red;
+}
+
 /* email nelle card: nere, non sottolineate */
 .card a[href^="mailto:"] {
   color: inherit;
