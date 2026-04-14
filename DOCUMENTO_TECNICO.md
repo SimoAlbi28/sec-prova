@@ -1,5 +1,5 @@
 # Documento Tecnico
-## Mini-portale eventi culturali "Trezzano Cultura"
+## Mini-portale eventi culturali "Trezzano Events"
 
 **Corsista**: Simone Albini
 **Data**: 14/04/2026
