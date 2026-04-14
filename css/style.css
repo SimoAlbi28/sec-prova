@@ -48,6 +48,12 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* email nelle card: nere, non sottolineate */
+.card a[href^="mailto:"] {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* mobile: titolo hero più piccolo */
 @media (max-width: 576px) {
   .hero h1 {
