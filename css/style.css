@@ -1,1 +1,61 @@
-/* Stili personalizzati - scrivi qui */
+/* override variabili bootstrap */
+:root {
+  --bs-primary: #0077b6;
+  --bs-primary-rgb: 0, 119, 182;
+  --primario-scuro: #023e8a;
+}
+
+body {
+  font-family: cursive;
+  line-height: 1.6;
+}
+
+.hero h1 {
+  color: var(--primario-scuro);
+}
+
+/* card: immagine altezza fissa per uniformare */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* hover card: si alza */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* focus da tastiera (accessibilità) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--bs-primary);
+  outline-offset: 2px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* mobile: titolo hero più piccolo */
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2.25rem;
+  }
+}
+
+h2, h3 {
+  text-align: center;
+}
+
